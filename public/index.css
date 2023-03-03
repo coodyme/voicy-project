@@ -1,0 +1,43 @@
+:root {
+  --primary: #00DFD8;
+  --secondary: #007CF0;
+  --background: #000000;
+  --foreground: #111111;
+  --title: #888888;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title);
+}
+
+html {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+html,
+input {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}

@@ -1,1 +1,0 @@
-# voicy-project
